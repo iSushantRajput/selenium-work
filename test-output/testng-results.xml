@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-04T00:20:17 IST" name="Default suite" finished-at="2025-11-04T00:20:26 IST" duration-ms="8597">
+    <groups>
+    </groups>
+    <test started-at="2025-11-04T00:20:17 IST" name="Default test" finished-at="2025-11-04T00:20:26 IST" duration-ms="8597">
+      <class name="listeners.JustToProve003">
+        <test-method signature="case4()[pri:0, instance:listeners.JustToProve003@4d1c00d0]" started-at="2025-11-04T00:20:17 IST" name="case4" finished-at="2025-11-04T00:20:26 IST" duration-ms="8494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case4 -->
+      </class> <!-- listeners.JustToProve003 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
