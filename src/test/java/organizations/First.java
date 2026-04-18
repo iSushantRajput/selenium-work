@@ -153,6 +153,9 @@ public class First {
 		driver.findElement(By.xpath("(//input[@type='tel'])[5]")).sendKeys("0");
 		driver.findElement(By.xpath("(//input[@type='tel'])[6]")).sendKeys("0");
 		System.out.println(otpFields12.size());
+		
+		
+		
 		/**
 		 * 
 		**/
