@@ -129,8 +129,10 @@ public class First {
 
 		
 		
-		
-		
+		/**
+		 * 
+		**/
+		otpBtn.click();
 		List<WebElement> otpFields11 = driver.findElements(
 			    By.xpath("//input[@type='tel' and contains(@aria-label,'OTP character')]")
 			);
@@ -143,8 +145,7 @@ public class First {
 		System.out.println(otpFields11.size());
 		otpBtn.click();
 		List<WebElement> otpFields12 = driver.findElements(
-			    By.xpath("//input[@type='tel' and contains(@aria-label,'OTP character')]")
-			);
+			    By.xpath("//input[@type='tel' and contains(@aria-label,'OTP character')]"));
 		driver.findElement(By.xpath("(//input[@type='tel'])[1]")).sendKeys("0");
 		driver.findElement(By.xpath("(//input[@type='tel'])[2]")).sendKeys("0");
 		driver.findElement(By.xpath("(//input[@type='tel'])[3]")).sendKeys("0");
