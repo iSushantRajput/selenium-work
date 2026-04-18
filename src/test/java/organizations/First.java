@@ -127,6 +127,39 @@ public class First {
 		driver.findElement(By.xpath("(//input[@type='tel'])[6]")).sendKeys("0");
 		System.out.println(otpFields1.size());
 
+		
+		
+		/**
+		 * 
+		**/
+		otpBtn.click();
+		List<WebElement> otpFields11 = driver.findElements(
+			    By.xpath("//input[@type='tel' and contains(@aria-label,'OTP character')]")
+			);
+		driver.findElement(By.xpath("(//input[@type='tel'])[1]")).sendKeys("0");
+		driver.findElement(By.xpath("(//input[@type='tel'])[2]")).sendKeys("0");
+		driver.findElement(By.xpath("(//input[@type='tel'])[3]")).sendKeys("0");
+		driver.findElement(By.xpath("(//input[@type='tel'])[4]")).sendKeys("0");
+		driver.findElement(By.xpath("(//input[@type='tel'])[5]")).sendKeys("0");
+		driver.findElement(By.xpath("(//input[@type='tel'])[6]")).sendKeys("0");
+		System.out.println(otpFields11.size());
+		otpBtn.click();
+		List<WebElement> otpFields12 = driver.findElements(
+			    By.xpath("//input[@type='tel' and contains(@aria-label,'OTP character')]")
+			);
+		driver.findElement(By.xpath("(//input[@type='tel'])[1]")).sendKeys("0");
+		driver.findElement(By.xpath("(//input[@type='tel'])[2]")).sendKeys("0");
+		driver.findElement(By.xpath("(//input[@type='tel'])[3]")).sendKeys("0");
+		driver.findElement(By.xpath("(//input[@type='tel'])[4]")).sendKeys("0");
+		driver.findElement(By.xpath("(//input[@type='tel'])[5]")).sendKeys("0");
+		driver.findElement(By.xpath("(//input[@type='tel'])[6]")).sendKeys("0");
+		System.out.println(otpFields12.size());
+		/**
+		 * 
+		**/
+		
+		
+		
 		WebElement submitBtn2 = wait.until(
 				ExpectedConditions.elementToBeClickable(By.xpath("//div[@role='dialog']//button[text()='Submit']")));
 		// CLICK DONE
