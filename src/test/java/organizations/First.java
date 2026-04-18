@@ -129,9 +129,7 @@ public class First {
 
 		
 		
-		/**
-		 * 
-		**/
+		
 		otpBtn.click();
 		List<WebElement> otpFields11 = driver.findElements(
 			    By.xpath("//input[@type='tel' and contains(@aria-label,'OTP character')]")
